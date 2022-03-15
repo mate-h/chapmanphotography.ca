@@ -1,0 +1,93 @@
+.portfolio-overlay {
+	-webkit-backface-visibility: hidden;
+	border: 20px solid transparent;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: block;
+	position: absolute !important;
+	top: 40px;
+	left: 40px;
+	right: 40px;
+	bottom: 40px;
+	z-index: 1;
+	opacity: 0;
+	text-align: left;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+.portfolio-overlay .icons {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.portfolio-overlay:hover {
+	opacity: 1;
+}
+.portfolio-overlay .icons div {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.portfolio-overlay .icons .icon {
+	display: inline-block !important;
+	color: #fff;
+	text-align: center;
+	-webkit-transition: all 0.1s ease-in-out 0s;
+	-moz-transition: all 0.1s ease-in-out 0s;
+	-ms-transition: all 0.1s ease-in-out 0s;
+	-o-transition: all 0.1s ease-in-out 0s;
+	transition: all 0.1s ease-in-out 0s;
+}
+.portfolio-overlay .icons .icon a {
+	font-size: 13px;
+	line-height: normal !important;
+	text-transform: uppercase;
+	color: #fff !important;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+.portfolio-overlay .icons .icon a:hover {
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+.portfolio-overlay:hover .icons .icon a img {
+	opacity: 1;
+}
+.portfolio-detail .block {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.portfolio-detail h1 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #4c4c4c;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	line-height: 28px;
+	margin: 0px;
+	padding: 0px;
+}
+.portfolio-detail .description {
+	font-size: 14px;
+	color: #808080;
+	padding-top: 20px;
+	line-height: 30px;
+}
+.portfolio-detail ul.info {
+	padding: 0px;
+	margin: 0px;
+	padding-top: 20px;
+}
+.portfolio-detail ul.info li {
+	font-size: 12px;
+	list-style: none;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #666666;
+	letter-spacing: 3px;
+}
